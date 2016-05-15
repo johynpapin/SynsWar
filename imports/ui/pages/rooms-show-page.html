@@ -1,0 +1,67 @@
+<template name="Rooms_show_page">
+    <div id="rooms-show-page">
+        {{#if room.game.progress}}
+            <div id="progressbar">
+                <div id="filler" style="flex: {{progress}};"></div>
+            </div>
+        {{/if}}
+        <div id="room">
+            <div id="informations">
+                <h1>{{room.name}}</h1>
+            </div>
+
+            {{#if room.game.inprogress}}
+                <div id="game">
+                    {{#if room.game.countdown}}
+                        <h3>Le prochain mot arrive dans...</h3>
+                        <h1 class="display-1" id="countdown">{{countdown}}</h1><br/>
+                        <h2>Un synonyme possible était : <b>{{room.game.answer}}</b>.</h2>
+                    {{else}}
+                        <div id="word">
+                            <h3>Trouvez un synonyme de...</h3>
+                            <h1>{{room.game.word}}</h1>
+                        </div>
+                        <input class="{{#if word}}good{{/if}}" disabled="{{#if word}}true{{/if}}" id="synonym-input" type="text" maxlength="30" value="{{word}}">
+                    {{/if}}
+                </div>
+
+                <div id="footer">
+                    <div id="players">
+                        {{#each room.game.players}}
+                            {{> player}}
+                        {{/each}}
+                    </div>
+                </div>
+            {{else}}
+                <div id="game">
+                    {{#if room.game.countdown}}
+                        <h1 class="display-1" id="countdown">{{countdown}}</h1><br/>
+                    {{else}}
+                        {{#if room.winner}}
+                            <h2>Bravo à {{room.winner}} !</h2>
+                        {{/if}}
+                        <h1>En attente de {{waitingFor}} joueur...</h1><br/>
+                    {{/if}}
+                    {{#if joined}}
+                        <button id="leave" role="button" class="btn btn-secondary btn-lg">Je ne veux plus jouer !</button>
+                    {{else}}
+                        {{#if currentUser}}
+                            <button id="join" role="button" class="btn btn-secondary btn-lg">Rejoindre la prochaine partie</button>
+                        {{else}}
+                            <h1>Vous devez être connecté afin de rejoindre la partie.</h1>
+                        {{/if}}
+                    {{/if}}
+                </div>
+                <div id="footer"></div>
+            {{/if}}
+        </div>
+        <div id="sidebar">
+            <ul id="chat" class="list-unstyled">
+                {{#each messages}}
+                    <li><b>{{name}}</b>: {{message}}</li>
+                {{/each}}
+            </ul>
+            <textarea id="input" placeholder="Tapez un message ici"></textarea>
+        </div>
+    </div>
+</template>

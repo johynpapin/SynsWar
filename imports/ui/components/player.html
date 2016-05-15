@@ -1,0 +1,15 @@
+<template name="player">
+    <div class="player {{#if good}}good{{/if}}">
+        <div class="group">
+            <div class="initials">
+                <h1 class="display-4">{{initial}}</h1>
+            </div>
+            <div class="score">
+                {{#each bars score}}
+                <div class="bar"></div>
+                {{/each}}
+            </div>
+        </div>
+        <p>{{word}}</p>
+    </div>
+</template>

@@ -1,0 +1,17 @@
+<template name="Home_page">
+    <div class="flex">
+        <div id="home-page" class="container">
+            <h1 class="display-1">SynsWar</h1>
+            <h2>Trouvez le plus de synonymes pour gagner !</h2>
+            <br/>
+            {{#if currentUser}}
+                <a href="{{pathFor 'App.rooms'}}" role="button" class="btn btn-secondary btn-lg">Jouer !</a>
+            {{else}}
+                <div class="btn-group btn-group-lg" role="group" aria-label="Guest or not">
+                    <a href="{{pathFor 'App.login'}}" role="button" class="btn btn-secondary">Connectez-vous afin de jouer !</a>
+                    <a href="{{pathFor 'App.rooms'}}" role="button" class="btn btn-secondary btn-lg">Je veux juste regarder.</a>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+</template>

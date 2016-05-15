@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b714a9ed-5ae3-468b-8a73-10d32e0764a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/chosen/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/SynsWar.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/platforms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/development.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/i18n/fr.i18n.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/messages/messages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/messages/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/messages/server/publications.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/rooms/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/rooms/rooms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/rooms/server/publications.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/synonyms/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/synonyms/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/synonyms/server/publications.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/s-alert-configuration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/service-configuration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/loading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/loading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/loading.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/player.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/room-item.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/layouts/app-body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/layouts/app-body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/layouts/app-body.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/app-not-found.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/app-not-found.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/app-not-found.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/home-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/home-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/home-page.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/login-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/login-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/login-page.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/scrollbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util/fontface.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util/helpers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util/text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util/typography.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/stylesheets/util/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/.hsdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/.meteor-portable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-arrows-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-arrows-dark.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-arrows.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-arrows.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether-theme-basic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/css/tether.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/js/tether.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/dist/js/tether.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/1-Overview/1-why_you_should_use_tether.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/1-Overview/2-repositioning.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/1-Overview/3-why_we_dont_support_IE_8.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/2-Examples/1-list_of_examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/2-Examples/2-projects_using_tether.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/3-Advanced/1-embedding_tether.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/3-Advanced/2-extending_tether.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/coffee/intro.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/css/intro.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/intro.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/js/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/js/markAttachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/sass/intro.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/browser-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/coffee/welcome.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/css/browser-demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/css/prism.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/css/welcome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/js/drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/js/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/js/tether-v0.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/js/welcome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/sass/_inline-block.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/sass/browser-demo.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/docs/welcome/sass/welcome.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/chosen/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/chosen/chosen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/chosen/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/common/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/content-visible/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/dolls/dolls.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/dolls/dolls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/dolls/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/element-scroll/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/enable-disable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/facebook/facebook.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/facebook/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/out-of-bounds/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/pin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/resources/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/resources/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/resources/js/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/scroll/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/simple/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/testbed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/tooltip/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/viewport/colors.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/examples/viewport/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/helpers/_tether-theme-arrows.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/helpers/_tether-theme-basic.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/helpers/_tether.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/mixins/_inline-block.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/mixins/_pie-clearfix.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/tether-theme-arrows-dark.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/tether-theme-arrows.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/tether-theme-basic.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/css/tether.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/abutment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/constraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/markAttachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/shift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/tether.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/tether/src/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
+    <ignored path="SynsWar.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SynsWar" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/imports/startup/client/service-configuration.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/service-configuration.js" />
+        <option value="$PROJECT_DIR$/imports/ui/accounts/accounts-templates.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/room-list-pages.less" />
+        <option value="$PROJECT_DIR$/imports/ui/components/loading.less" />
+        <option value="$PROJECT_DIR$/imports/ui/accounts/accounts-templates.less" />
+        <option value="$PROJECT_DIR$/imports/startup/client/index.js" />
+        <option value="$PROJECT_DIR$/imports/ui/accounts/accounts-templates.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/app-not-found.js" />
+        <option value="$PROJECT_DIR$/imports/startup/client/s-alert-configuration.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/home-page.js" />
+        <option value="$PROJECT_DIR$/imports/ui/layouts/app-body.js" />
+        <option value="$PROJECT_DIR$/imports/api/rooms/server/publications.js" />
+        <option value="$PROJECT_DIR$/client/main.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.js" />
+        <option value="$PROJECT_DIR$/client/main.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/app-not-found.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/home-page.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/login-page.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/app-not-found.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/login-page.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/home-page.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.less" />
+        <option value="$PROJECT_DIR$/imports/ui/components/room-item.html" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-list-page.html" />
+        <option value="$PROJECT_DIR$/imports/api/messages/server/publications.js" />
+        <option value="$PROJECT_DIR$/imports/api/messages/methods.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/api.js" />
+        <option value="$PROJECT_DIR$/imports/ui/stylesheets/scrollbar.less" />
+        <option value="$PROJECT_DIR$/imports/ui/stylesheets/util.less" />
+        <option value="$PROJECT_DIR$/imports/api/messages/messages.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/index.js" />
+        <option value="$PROJECT_DIR$/imports/api/synonyms/server/publications.js" />
+        <option value="$PROJECT_DIR$/imports/api/synonyms/synonyms.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/login-page.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
+        <option value="$PROJECT_DIR$/imports/startup/client/routes.js" />
+        <option value="$PROJECT_DIR$/development.json" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.meteor/packages" />
+        <option value="$PROJECT_DIR$/imports/ui/layouts/app-body.html" />
+        <option value="$PROJECT_DIR$/imports/ui/components/player.html" />
+        <option value="$PROJECT_DIR$/imports/api/synonyms/methods.js" />
+        <option value="$PROJECT_DIR$/imports/ui/layouts/app-body.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.less" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.js" />
+        <option value="$PROJECT_DIR$/imports/api/rooms/methods.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/game.js" />
+        <option value="$PROJECT_DIR$/imports/api/rooms/rooms.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/rooms-show-page.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
+    <option name="width" value="1922" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynsWar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynsWar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynsWar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynsWar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynsWar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".meteor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="js.meteor.project" value="true" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imports/startup/server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/imports/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Meteor.Run Meteor">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="meteor-app-runner" factoryName="Meteor">
+      <option name="exePath" value="/usr/local/bin/meteor" />
+      <option name="startBrowserSettings">
+        <browser url="http://localhost:3000" />
+      </option>
+      <meteor-runner-state>
+        <startBrowserSettings>
+          <browser url="http://localhost:3000" />
+        </startBrowserSettings>
+      </meteor-runner-state>
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Run Meteor" type="meteor-app-runner" factoryName="Meteor" programParameters="--settings development.json">
+      <option name="exePath" value="/usr/local/bin/meteor" />
+      <option name="startBrowserSettings">
+        <browser url="http://localhost:3000" />
+      </option>
+      <meteor-runner-state>
+        <startBrowserSettings>
+          <browser url="http://localhost:3000" />
+        </startBrowserSettings>
+      </meteor-runner-state>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Meteor.Run Meteor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b714a9ed-5ae3-468b-8a73-10d32e0764a3" name="Default" comment="" />
+      <created>1462526767863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1462526767863</updated>
+      <workItem from="1462526769100" duration="17186000" />
+      <workItem from="1462559030470" duration="836000" />
+      <workItem from="1462613980145" duration="22155000" />
+      <workItem from="1462649363043" duration="448000" />
+      <workItem from="1462649964895" duration="756000" />
+      <workItem from="1462700520390" duration="26451000" />
+      <workItem from="1462795650559" duration="16830000" />
+      <workItem from="1462879158062" duration="8737000" />
+      <workItem from="1462986911843" duration="5222000" />
+      <workItem from="1463052070948" duration="5485000" />
+      <workItem from="1463129081558" duration="16682000" />
+      <workItem from="1463210995386" duration="10014000" />
+      <workItem from="1463303414317" duration="5473000" />
+      <workItem from="1463317177093" duration="719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136994000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.199262" sideWeight="0.49438202" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978166" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5021834" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.49563318" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48854166" sideWeight="0.72925764" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37395832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19759825" sideWeight="0.505618" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19759825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/main.less" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/app-not-found.less" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login-page.less" />
+    <entry file="file://$PROJECT_DIR$/client/main.html" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/home-page.less" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-list-page.less" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/client/s-alert-configuration.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/loading.html" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/layouts/app-body.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/room-item.html" />
+    <entry file="file://$PROJECT_DIR$/.meteor/platforms" />
+    <entry file="file://$PROJECT_DIR$/imports/api/messages/methods.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/stylesheets/scrollbar.less" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/stylesheets/util.less" />
+    <entry file="file://$PROJECT_DIR$/imports/api/messages/server/publications.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/messages/messages.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/synonyms/synonyms.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/loading.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/synonyms/data.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/synonyms/server/publications.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/app-not-found.html" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/home-page.html" />
+    <entry file="file://$PROJECT_DIR$/imports/api/rooms/server/publications.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login-page.html" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/home-page.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/app-not-found.js" />
+    <entry file="file://$PROJECT_DIR$/settings.json" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login-page.js" />
+    <entry file="file://$PROJECT_DIR$/development.json" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/layouts/app-body.html" />
+    <entry file="file://$PROJECT_DIR$/.meteor/packages" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-list-page.html" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/service-configuration.js" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/api.js" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/fixtures.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/player.html" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/index.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/layouts/app-body.less" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-list-page.js" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/client/index.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/synonyms/methods.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-show-page.less" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-show-page.js" />
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/game.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/rooms/methods.js" />
+    <entry file="file://$PROJECT_DIR$/imports/api/rooms/rooms.js" />
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/rooms-show-page.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

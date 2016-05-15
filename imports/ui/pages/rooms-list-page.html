@@ -1,0 +1,43 @@
+<template name="Rooms_list_page">
+    <div class="flex">
+        <div id="rooms-list-page" class="container">
+            {{#if currentUser}}
+                <p>Salut, {{name}} !<br/><br/><button id="logout" type="button" class="btn btn-danger-outline btn-sm">Déconnexion</button></p>
+            {{else}}
+                <p>Salut, le visiteur !<br/><br/><a href="{{pathFor 'App.login'}}" role="button" class="btn btn-success-outline btn-sm">Connexion</a></p>
+            {{/if}}
+            <h1 class="display-1">SynsWar</h1>
+            <br/>
+            {{#if rooms}}
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 list-group">
+                        {{#each rooms}}
+                            {{> roomItem}}
+                        {{/each}}
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            {{else}}
+                <h3>Aucun salon disponible. Pourquoi ne pas en créer un ?</h3>
+            {{/if}}
+            <br/><br/>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input id="room-name" type="text" class="form-control" aria-label="Room creation form">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créer...</button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button type="button" id="public" class="dropdown-item">Un salon public</button>
+                                <button type="button" id="private" class="dropdown-item">Un salon privé</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,27 @@
+@import '../stylesheets/util.less';
+
+html, body, .viewport, #__blaze-root, #content-overlay, #content-container, #content-container > div, #main, .flex {
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+body, .viewport, #__blaze-root, #content-overlay, #content-container, #content-container > div, #main, .flex {
+  flex: 1;
+}
+
+.flex {
+  align-items: center;
+  justify-content: center;
+  background: -webkit-radial-gradient(#541718 30%, #411113, #300d0e); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(#541718 30%, #411113, #300d0e); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#541718 30%, #411113, #300d0e); /* For Firefox 3.6-15 */
+  background: radial-gradient(#541718 30%, #411113, #300d0e); /* Standard syntax */
+}
+
+.flex > div {
+  flex: 1;
+}

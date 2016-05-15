@@ -1,0 +1,19 @@
+<template name="App_body">
+    {{> sAlert}}
+
+    <div class="content-overlay"></div>
+
+    <div id="content-container">
+        {{#momentum plugin="fade"}}
+            <div id="main">
+                {{#if Template.subscriptionsReady}}
+                    {{> Template.dynamic template=main}}
+                {{else}}
+                    {{> App_loading}}
+                {{/if}}
+            </div>
+        {{/momentum}}
+    </div>
+
+    {{> meteorStatus}}
+</template>
